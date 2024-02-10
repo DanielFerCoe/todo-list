@@ -1,0 +1,29 @@
+.wrapper {
+  max-width: 46rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.tasksContainer {
+  margin-top: 4rem;
+}
+
+.tasksContainer .tasks .emptyTasks {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  padding: 6rem 1rem;
+  gap: 1rem;
+}
+
+.tasksContainer .emptyTasks .infoContainer {
+  line-height: 1.4;
+  font-weight: bold;
+  text-align: center;
+}
+
+.tasksContainer .emptyTasks .infoContainer p + p {
+  font-weight: 100;
+}
